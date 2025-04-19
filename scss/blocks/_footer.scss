@@ -14,6 +14,25 @@
         gap: 20px;
     }
 
+    &__link {
+
+        i {
+            font-size: 24px;
+            color: #000;
+            transition: all 0.3s ease;
+
+            &:hover {
+                color: #FF7500;
+                opacity: 80%;
+            }
+
+            &:active {
+                color: #FF7500;
+                opacity: 60%;
+            }
+        }
+    }
+
     hr {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -39,6 +58,12 @@
 
         &:hover {
             color: #FF7500;
+            opacity: 80%;
+        }
+
+        &:active {
+            color: #FF7500;
+            opacity: 60%;
         }
     }
 }

@@ -63,7 +63,7 @@ img {
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1200px;
+  max-width: 1100px !important;
   width: 100%;
 }
 
@@ -140,6 +140,7 @@ body {
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: all 0.3s ease;
 }
 .header__logo:hover {
   opacity: 80%;
@@ -251,9 +252,14 @@ body {
   flex-direction: column;
   gap: 20px;
 }
-.why__card img {
+.why__span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100px;
   height: 100px;
+  border-radius: 50%;
+  background: rgba(255, 117, 0, 0.2);
 }
 
 .promo {
@@ -311,6 +317,19 @@ body {
   display: flex;
   gap: 20px;
 }
+.footer__link i {
+  font-size: 24px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.footer__link i:hover {
+  color: #FF7500;
+  opacity: 80%;
+}
+.footer__link i:active {
+  color: #FF7500;
+  opacity: 60%;
+}
 .footer hr {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -333,4 +352,9 @@ body {
 }
 .footer__links:hover {
   color: #FF7500;
+  opacity: 80%;
+}
+.footer__links:active {
+  color: #FF7500;
+  opacity: 60%;
 }/*# sourceMappingURL=main.css.map */
