@@ -1,0 +1,50 @@
+.promo {
+    margin-top: 245px;
+
+    &__container {
+        background: #252420;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 64px !important;
+        border-radius: 12px;
+    }
+
+    &__left {
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    &__title,
+    &__text,
+    &__subtext {
+        color: #fff;
+    }
+
+    &__span {
+        color: #FF7500;
+    }
+
+    &__link {
+        padding: 12px 24px;
+        background-color: #FF7500;
+        color: #fff;
+        border-radius: 8px;
+        width: 165px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
+    }
+
+    &__img {
+        border-radius: 12px;
+    }
+}

@@ -1,0 +1,36 @@
+.why {
+    margin-top: 210px;
+
+    hr {
+        width: 80px;
+        height: 3px;
+        background: #FF7500;
+        opacity: 1;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 120%;
+        letter-spacing: 0.5px;
+        width: 435px;
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 72px;
+    }
+
+    &__card {
+        width: 340px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
